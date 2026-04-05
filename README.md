@@ -1,4 +1,4 @@
-# ⚡ Electric Vehicle Sensor Analytics
+# ⚡ Electric Vehicle Intelligence
 ### Predictive Machine Learning Dashboard for EV Performance, Safety & Battery Health
 
 > **Turning raw OBD-II telemetry into actionable intelligence — without expensive hardware.**
