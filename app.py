@@ -24,7 +24,7 @@ import plotly.express as px
 
 # ── Page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="Vehicle Energy Intelligence",
+    page_title="Electric Vehicle Intelligence",
     page_icon="⚡",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -119,7 +119,7 @@ auto_train()
 
 # ── Sidebar ───────────────────────────────────────────────────────────────────
 with st.sidebar:
-    st.markdown("### ⚡ Vehicle Energy Intelligence")
+    st.markdown("### ⚡ Electric Vehicle Intelligence")
     st.markdown("---")
 
     # ── CSV Upload ────────────────────────────────────────────────────────────
@@ -175,7 +175,7 @@ DARK = dict(paper_bgcolor="#1f2937", plot_bgcolor="#111827",
 # PAGE: HOME
 # =============================================================================
 if page == "🏠 Home":
-    st.markdown('<div class="grad">⚡ Vehicle Energy Intelligence</div>', unsafe_allow_html=True)
+    st.markdown('<div class="grad">⚡Electric Vehicle Intelligence</div>', unsafe_allow_html=True)
     st.markdown("**Real-Time Electric Vehicle Sensor Analytics** — Upload your telemetry CSV to begin.")
     st.markdown("---")
 
